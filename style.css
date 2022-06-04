@@ -1,0 +1,48 @@
+.heading
+{
+    background-image: linear-gradient( lavender, lavenderblush);
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    color: slategray;
+}
+
+.note
+{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.name
+{
+    background-color: white;
+    color: rgb(58, 58, 58);
+    margin-bottom: 25px;
+    border-color: gray;
+    box-shadow: 5px 5px 10px gainsboro;
+}
+
+h4
+{
+    color: snow;
+    font-size: 18px;
+}
+
+.start
+{
+    background-color: thistle;
+    border-color: rgb(246, 187, 246);
+    font-size: 18px;
+    color: white;
+    width: 75px;
+    height: 30px;
+}
+
+canvas
+{
+  border-color: white;
+  margin-top: 110px;
+  border-radius: 5px;
+  border-style: solid;
+}

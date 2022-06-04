@@ -1,0 +1,35 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.png">
+<center>
+
+<h2 class="heading">AI Object Finder
+<br>
+<label class="note">Note - The Input name which you will give should match the names present in coco model then only it will detect</label>
+</h2>
+<h4>Object Name - </h4>
+<input class="name" id="name">
+<br>
+<button class="start" onclick="start()" >Start</button>
+<br>
+<h4 class="btn btn-warning" id="status"></h4>
+<h4 class="btn btn-danger" id="object"></h4>
+
+</center>
+
+<script src="main.js"></script>
+</body>
